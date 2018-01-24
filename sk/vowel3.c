@@ -2,14 +2,14 @@
 
  
 void main(){
-    char k;
+    char m;
     printf("Enter a Character: ");
-    scanf("%c", &k);
-    if(k == 'a' || k == 'e' || k =='i' || k=='o' || k=='u' || k=='A'
-          || k=='E' || k=='I' || k=='O' || k=='U'){
-        printf("%c is a Vowel\n", k);
+    scanf("%c", &m);
+    if(m == 'a' || m == 'e' || m =='i' || m=='o' || m=='u' || m=='A'
+          || m=='E' || m=='I' || m=='O' || m=='U'){
+        printf("%c is a Vowel\n", m);
     } else {
-        printf("%c is a Consonant\n", k);
+        printf("%c is a Consonant\n", m);
     }
     
 }
