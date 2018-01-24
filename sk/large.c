@@ -1,18 +1,18 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
-scanf("%d",&a);
-scanf("%d",&b);
-scanf("%d",&c);
-if(a>b)
+int k,l,m;
+scanf("%d",&k);
+scanf("%d",&l);
+scanf("%d",&m);
+if(k>l)
 {
-prinf("a is big");
+prinf("k is big");
 }
 ifelse
 {
-printf("b is big");
+printf("l is big");
 }
 else
-printf("c is big");
+printf("m is big");
 }
