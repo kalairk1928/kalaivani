@@ -1,17 +1,18 @@
 #include <stdio.h>
 void main()
 {
-    int n;
-    int count = 0;
+    int s;
+    int c = 0;
 
     printf("Enter an integer: ");
-    scanf("%d", &n);
+    scanf("%d", &s);
 
-    while(n != 0)
+    while(s != 0)
     {
         
-        n /= 10;
-        ++count;
+        s /= 10;
+        ++c;
     }
 
-printf("
+printf("the count is",c);
+}
