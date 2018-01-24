@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int i;
-if(i<=5)
+int k;
+if(k<=5)
 {
 printf("hello");
-i++;
+k++;
 }
 }
