@@ -1,11 +1,11 @@
 include <stdio.h> 
  void main() 
  { 
-     int n; 
+     int s; 
      printf("Enter an integer: "); 
-     scanf("%d", &n); 
+     scanf("%d", &s); 
       
-  if(number % 2 == 0) 
+  if(s % 2 == 0) 
         printf("%d is even.", n); 
      else          printf("%d is odd.", n); 
 } 
