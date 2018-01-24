@@ -2,20 +2,20 @@
 
 int main()
 {
-    int a, b, c, d;
+    int k, b, c, d;
 
     cout << "Enter two numbers(intervals): ";
-    cin >> a >> b;
+    cin >> k >> b;
 
-    cout << "Prime numbers between " << a << " and " << b << " are: ";
+    cout << "Prime numbers between " << k<< " and " << b << " are: ";
 
-    while (a < b)
+    while (k < b)
     {
         d = 0;
 
-        for(c = 2; c <= a/2; ++c)
+        for(c = 2; c <= k/2; ++c)
         {
-            if(a % c == 0)
+            if(k% c == 0)
             {
                 d = 1;
                 break;
@@ -23,7 +23,7 @@ int main()
         if (d== 0)
             cout << a << " ";
 
-        ++a;
+        ++k;
     }
 
     return 0;
