@@ -7,5 +7,5 @@ scanf("%d%d",&a,&b);
 c=a;
 a=b;
 b=c;
-printf("the swapped values are:%d%d",a,b);
+printf("the swapped values are:%d\t%d",a,b);
 }
