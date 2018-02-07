@@ -8,10 +8,10 @@ int main()
  gets(str);
  for(i=0; str[i]!=NULL; i++)
  {
- if(str[i]==" ")
+ if(str[i]==' ')
  {
    count++;
  }}
- printf("\nNumber of characters in string : %d",count);
+ printf("\nNumber of characters in string : %d",count+1);
  return 0;
 }
