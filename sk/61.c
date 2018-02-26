@@ -2,13 +2,13 @@
 #include<string.h>
 void main()
 {
-	char a[100];
-	int n,i,m;
-	scanf("%s",&a);
-	scanf("%d",&n);
-	m=strlen(a);
-	for(i=0;i<n;i++)
+	char n[100];
+	int a,i,m;
+	scanf("%s",&n);
+	scanf("%d",&a);
+	m=strlen(n);
+	for(i=0;i<a;i++)
 	{
-		printf("%c",a[i]);
+		printf("%c",n[i]);
 	}
 }
