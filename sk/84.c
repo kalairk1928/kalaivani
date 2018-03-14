@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-char c;
+char ch;
 printf("enter a character");
-scanf("%c",&c);
-printf("the ascii value of%c=%d",c,c);
+scanf("%c",&ch);
+printf("the ascii value of%c=%d",ch,ch);
 }
